@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bankceast
+    username: postgres
+    password: admin123
+    driver-class-name: org.postgresql.Driver
+  sql:
+    init:
+      mode: always
+
+server:
+  port: 8282
